@@ -1,0 +1,28 @@
+@media only screen {
+    /* section {
+        padding: 50px 10px;
+        vertical-align: middle;
+        display: flex;
+    } */
+
+    #main {
+        background-color: black;
+        background-image: url('../imagens/rafael-romero-baixa2.png');
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        display: block;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    #main.content {
+        display: flex;
+        vertical-align: middle;
+    }
+
+    .social-buttons {
+        position: relative;
+        left: 60%;
+        top: 45vh;
+    }
+}

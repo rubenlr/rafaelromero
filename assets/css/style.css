@@ -1,0 +1,114 @@
+.social-buttons {
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+/* Helper class to divide the icons */
+.social-margin {
+    margin-right: 15px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+.social-icon {
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    -moz-border-radius: 138px;
+    -webkit-border-radius: 138px;
+    border-radius: 138px;
+    border: 5px solid;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 1px;
+    padding-top: 11px;
+    transition: all 0.5s;
+}
+
+.social-icon:hover {
+    transform: rotate(360deg)scale(1.3);
+}
+
+.facebook {
+    font-size: 22px;
+    padding-top: 9px;
+    border-color: #3b5998;
+    background-color: #3b5998;
+    color: #ffffff;
+
+}
+
+.facebook:hover {
+    background-color: #ffffff;
+    color: #3b5998;
+}
+
+.twitter {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #55acee;
+    background-color: #55acee;
+    color: #ffffff;
+
+}
+
+.twitter:hover {
+    background-color: #ffffff;
+    color: #55acee;
+}
+
+/* Linkedin Button Styling */
+.linkedin {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 1px;
+    background-color: #0976b4;
+    color: #ffffff;
+    border-color: #0976b4;
+
+}
+
+/* Youtube Button Styling */
+.youtube {
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 0px;
+    background-color: #bb0000;
+    color: #ffffff;
+    border-color: #bb0000;
+
+}
+
+
+/* Youtube Button Styling */
+.instagram {
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 0px;
+    color: #ffffff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border-color: teal;
+
+}
+
+/* Tiktok Button Styling */
+.tiktok {
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 0px;
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
