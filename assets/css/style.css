@@ -76,7 +76,12 @@ a:active {
     background-color: #0976b4;
     color: #ffffff;
     border-color: #0976b4;
+}
 
+.linkedin:hover {
+    background-color: #ffffff;
+    color: #0976b4;
+    border-color: #0976b4;
 }
 
 /* Youtube Button Styling */
@@ -87,9 +92,13 @@ a:active {
     background-color: #bb0000;
     color: #ffffff;
     border-color: #bb0000;
-
 }
 
+.youtube:hover {
+    background-color: #ffffff;
+    color: #bb0000;
+    border-color: #ffffff;
+}
 
 /* Youtube Button Styling */
 .instagram {
@@ -100,7 +109,12 @@ a:active {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     border-color: teal;
+}
 
+.instagram:hover {
+    color: #ffffff;
+    background: teal;
+    border-color: teal;
 }
 
 /* Tiktok Button Styling */
@@ -108,7 +122,12 @@ a:active {
     font-size: 22px;
     padding-top: 9px;
     padding-left: 0px;
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+.tiktok:hover {
     background-color: #fff;
     color: #000;
-    border-color: #000;
 }
